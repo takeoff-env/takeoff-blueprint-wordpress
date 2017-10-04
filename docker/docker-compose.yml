@@ -9,7 +9,7 @@ services:
     volumes: 
       - ./../env/wordpress:/home/wordpress/wordpress
     ports:
-      - "8080:80"
+      - "80:80"
     links:
       - fpm:fpm
 
